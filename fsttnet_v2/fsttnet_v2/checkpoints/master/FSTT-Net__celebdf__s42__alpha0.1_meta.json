@@ -1,0 +1,67 @@
+{
+  "next_epoch": 6,
+  "best_auc": 0.9753450591368725,
+  "bad": 3,
+  "complete": true,
+  "history": {
+    "epoch": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "train_loss": [
+      1.2060845943695722,
+      0.7388539786007315,
+      0.36520972003273783,
+      0.2590739972451154,
+      0.19473786500685994,
+      0.1851534382863478
+    ],
+    "train_acc": [
+      0.5536430481283422,
+      0.7743148395721925,
+      0.9252172459893048,
+      0.9564672459893048,
+      0.9721758021390374,
+      0.9706717914438503
+    ],
+    "val_auc": [
+      0.7324217339292164,
+      0.9386079699349945,
+      0.9734843355001807,
+      0.9713496524015889,
+      0.9649303674611772,
+      0.9686543540086674
+    ],
+    "video_auc": [
+      0.7530877573131094,
+      0.9680028891296497,
+      0.985373781148429,
+      0.9878656554712892,
+      0.9859877211989888,
+      0.9862405200433371
+    ]
+  },
+  "top": [
+    {
+      "auc": 0.9734843355001807,
+      "path": "/content/drive/MyDrive/NIT-PATNA-P2/fsttnet_v2/checkpoints/master/FSTT-Net__celebdf__s42__alpha0.1_top_e03_0.97348.safetensors"
+    },
+    {
+      "auc": 0.9713496524015889,
+      "path": "/content/drive/MyDrive/NIT-PATNA-P2/fsttnet_v2/checkpoints/master/FSTT-Net__celebdf__s42__alpha0.1_top_e04_0.97135.safetensors"
+    },
+    {
+      "auc": 0.9686543540086674,
+      "path": "/content/drive/MyDrive/NIT-PATNA-P2/fsttnet_v2/checkpoints/master/FSTT-Net__celebdf__s42__alpha0.1_top_e06_0.96865.safetensors"
+    }
+  ],
+  "params_M": 23.83686,
+  "model": "FSTT-Net",
+  "corpus": "celebdf",
+  "seed": 42,
+  "tag": "alpha0.1"
+}

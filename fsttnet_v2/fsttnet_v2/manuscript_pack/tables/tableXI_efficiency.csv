@@ -1,0 +1,6 @@
+Method,Params (M),GFLOPs/clip,Latency (ms/clip),Throughput (clips/s)
+STT-Repro,21.55,,6.89,145.1
+FSTT-Net,23.84,,7.84,127.6
+Swin-T,27.52,,2.65,377.1
+EfficientNet-B4,17.55,,3.88,257.5
+F3Net-Lite,4.01,,1.99,503.6

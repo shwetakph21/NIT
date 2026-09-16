@@ -1,0 +1,10 @@
+Method,Source,Frame ACC (%),Frame AUC (%),Video ACC (%),Video AUC (%),Video EER (%),Video AUC 95% CI
+Two-branch [66],reported,,,93.81,95.93,,
+F3-Net [67],reported,,,95.95,98.93,,
+MADD [5],reported,,,94.63,97.95,,
+PEL [74],reported,,,96.77,98.19,,
+RECCE [77],reported,,,98.59,99.94,,
+SFGD [79],reported,,,99.22,99.96,,
+STT (base paper) [TIFS'25],reported,,,99.81,100.0,,
+FSTT-Net,measured,98.41,99.89,99.03,99.99,0.29,"[99.96, 100.00]"
+STT-Repro,measured,97.13,99.65,99.23,99.98,1.0,"[99.93, 100.00]"

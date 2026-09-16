@@ -1,0 +1,8 @@
+Method,Best val AUC (%),Params (M),Epochs,Train time (min),Pretrained,Note
+Swin-T,96.63,27.52,14,174.4,yes,
+FSTT-Net,96.32,23.84,15,0.0,yes,proposed
+STT-Repro,96.28,21.55,15,0.0,yes,"base-paper configuration, reproduced in this work"
+F3Net-Lite,95.28,9.2,12,98.1,yes,RGB branch = ImageNet EfficientNet-B2
+EfficientNet-B4,95.27,17.55,20,244.3,yes,
+ViT-B/16,85.67,85.8,7,102.5,yes,early stop at epoch 7
+Xception (random init),84.89,20.81,19,234.1,NO,timm pretrained load failed; trained from scratch

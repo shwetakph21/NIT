@@ -1,0 +1,26 @@
+\begin{table}[!t]
+\centering
+\caption{Robustness to real-world degradation (frame-level AUC \%) on the same test sequences after JPEG recompression, Gaussian blur, additive noise and downscaling. The base paper reports no robustness study.}
+\label{tab:tableX_robustness}
+\footnotesize
+\begin{tabular}{lccc}
+\hline\hline
+Family & Level & STT-Repro & FSTT-Net \\
+\hline
+clean & 0.00 & 99.84 & 99.90 \\
+JPEG & 90.00 & 99.64 & 99.89 \\
+JPEG & 70.00 & 99.75 & 99.82 \\
+JPEG & 50.00 & 99.61 & 99.69 \\
+JPEG & 30.00 & 99.17 & 99.38 \\
+Blur & 1.00 & 99.42 & 99.82 \\
+Blur & 2.00 & 96.35 & 98.63 \\
+Blur & 3.00 & 82.92 & 88.04 \\
+Noise & 5.00 & 96.75 & 99.13 \\
+Noise & 10.00 & 70.21 & 88.70 \\
+Noise & 15.00 & 52.15 & 55.07 \\
+Downscale & 0.50 & 99.59 & 99.82 \\
+Downscale & 0.33 & 97.81 & 99.37 \\
+Downscale & 0.25 & 95.97 & 98.00 \\
+\hline\hline
+\end{tabular}
+\end{table}

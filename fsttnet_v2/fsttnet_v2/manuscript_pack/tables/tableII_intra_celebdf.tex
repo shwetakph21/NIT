@@ -1,0 +1,21 @@
+\begin{table}[!t]
+\centering
+\caption{Intra-dataset comparison on celebdf. Rows marked 'reported' are quoted from the literature and come from other implementations on their own splits. Rows marked 'measured' were produced by this work under one identical training schedule, face pipeline and test split, and are the only rows that support a controlled comparison. Bootstrap 95\% confidence intervals use 2000 resamples.}
+\label{tab:tableII_intra_celebdf}
+\footnotesize
+\begin{tabular}{lccccccc}
+\hline\hline
+Method & Source & Frame ACC (\%) & Frame AUC (\%) & Video ACC (\%) & Video AUC (\%) & Video EER (\%) & Video AUC 95\% CI \\
+\hline
+Two-branch [66] & reported & NaN & NaN & 93.81 & 95.93 & NaN & NaN \\
+F3-Net [67] & reported & NaN & NaN & 95.95 & 98.93 & NaN & NaN \\
+MADD [5] & reported & NaN & NaN & 94.63 & 97.95 & NaN & NaN \\
+PEL [74] & reported & NaN & NaN & 96.77 & 98.19 & NaN & NaN \\
+RECCE [77] & reported & NaN & NaN & 98.59 & 99.94 & NaN & NaN \\
+SFGD [79] & reported & NaN & NaN & 99.22 & 99.96 & NaN & NaN \\
+STT (base paper) [TIFS'25] & reported & NaN & NaN & 99.81 & 100.00 & NaN & NaN \\
+FSTT-Net & measured & 98.41 & 99.89 & 99.03 & 99.99 & 0.29 & [99.96, 100.00] \\
+STT-Repro & measured & 97.13 & 99.65 & 99.23 & 99.98 & 1.00 & [99.93, 100.00] \\
+\hline\hline
+\end{tabular}
+\end{table}

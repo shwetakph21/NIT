@@ -1,0 +1,43 @@
+% auto-generated captions
+
+% TABLE XI: tableXI_efficiency
+% Computational cost on NVIDIA RTX PRO 6000 Blackwell Server Edition at batch size 1 with clip length $T=4$. The base paper reports parameters and FLOPs but no wall-clock latency.
+
+% TABLE II: tableII_intra_dataset
+% Intra-dataset results on the held-out test split of each corpus, all produced under one training schedule and one face pipeline.
+
+% TABLE IV: tableIV_cross_dataset
+% Cross-dataset generalisation. Each model is trained on the source corpus only and evaluated on an unseen corpus without adaptation.
+
+% TABLE XII: tableXII_seed_variance
+% Mean and standard deviation over 3 random seeds on celebdf. A difference smaller than the spread is not a result.
+
+% TABLE VII: tableVII_component_ablation
+% Cumulative component study. Row A is the controlled reproduction of the base-paper configuration measured in this work, so every subsequent delta is attributable to exactly one added component.
+
+% TABLE I: tableI_alpha_sweep
+% Effect of the semantic control coefficient with the adaptive gate disabled, directly comparable to the base paper's Table I.
+
+% TABLE XIII: tableXIII_significance
+% Paired comparison of the proposed model against its own controlled reproduction on identical test sequences. A confidence interval containing zero means the difference is not distinguishable from run-to-run variation.
+
+% FIGURE 8: fig_training
+% Optimisation behaviour under an identical schedule for every model and corpus.
+
+% FIGURE 9: fig_roc_pr_det
+% ROC, precision-recall and detection-error trade-off on the celebdf test split. The base paper reports point AUC values only.
+
+% FIGURE 17: fig_cross_dataset
+% Transfer to unseen corpora. The dashed line marks chance.
+
+% FIGURE 20: fig_robustness
+% Degradation curves. A frequency-aware detector should lose less accuracy under compression and blur than a purely spatial one.
+
+% FIGURE 20(b): fig_robustness_delta
+% Per-setting advantage of the proposed model over its own controlled reproduction under degradation.
+
+% FIGURE 3: fig_token_clusters
+% Token partition after each clustering iteration, alongside the input and the semantic prior. Tokens stay fine inside semantically salient regions and become coarse in the background - the behaviour the design targets, shown here for the proposed model.
+
+% FIGURE 12: fig_seed_variance
+% Run-to-run spread over random seeds. Error bars are one standard deviation; a gap smaller than the bars is not a result.

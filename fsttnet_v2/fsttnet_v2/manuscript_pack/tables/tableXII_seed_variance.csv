@@ -1,0 +1,3 @@
+Method,Runs,Frame AUC mean,Frame AUC std,Video AUC mean,Video AUC std
+FSTT-Net,3,99.89,0.01,99.98,0.0
+STT-Repro,3,99.71,0.08,99.97,0.01

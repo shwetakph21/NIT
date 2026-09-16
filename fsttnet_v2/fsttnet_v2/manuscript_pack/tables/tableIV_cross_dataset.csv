@@ -1,0 +1,13 @@
+Method,Train,Test,Frame AUC (%),Video AUC (%),EER (%),Clips
+STT-Repro,celebdf,ff++,84.04,86.89,23.16,2995
+FSTT-Net,celebdf,ff++,75.0,83.16,35.04,2995
+STT-Repro,celebdf,wilddeepfake,69.72,71.33,36.48,1646
+FSTT-Net,celebdf,wilddeepfake,63.07,66.6,41.92,1646
+STT-Repro,ff++,celebdf,61.94,64.92,41.15,4000
+FSTT-Net,ff++,celebdf,65.8,70.08,37.97,4000
+STT-Repro,ff++,wilddeepfake,66.17,67.16,38.94,1646
+FSTT-Net,ff++,wilddeepfake,68.08,69.37,35.9,1646
+STT-Repro,wilddeepfake,celebdf,71.6,74.62,33.45,4000
+FSTT-Net,wilddeepfake,celebdf,75.82,79.18,31.63,4000
+STT-Repro,wilddeepfake,ff++,80.78,84.95,26.47,2995
+FSTT-Net,wilddeepfake,ff++,84.08,86.55,23.74,2995

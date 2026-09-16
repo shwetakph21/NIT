@@ -1,0 +1,308 @@
+{
+  "source": "celebdf",
+  "targets": [
+    "ff++"
+  ],
+  "cross_dataset": [
+    {
+      "Model": "FSTT-Net",
+      "Train": "celebdf",
+      "Test": "ff++",
+      "Frame AUC": 0.8607642509886897,
+      "Video AUC": 0.8948714073402353,
+      "EER": 0.2014017985339681,
+      "Clips": 2995
+    },
+    {
+      "Model": "STT-Repro",
+      "Train": "celebdf",
+      "Test": "ff++",
+      "Frame AUC": 0.8406713015441195,
+      "Video AUC": 0.8688380059951132,
+      "EER": 0.23009521650419407,
+      "Clips": 2995
+    }
+  ],
+  "robustness": [
+    {
+      "Model": "STT-Repro",
+      "Family": "clean",
+      "Kind": "clean",
+      "Level": 0.0,
+      "Frame AUC": 0.99835000739244,
+      "Video AUC": 0.9990850237375918,
+      "Clips": 1500,
+      "Drop vs clean": 0.0
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "clean",
+      "Kind": "clean",
+      "Level": 0.0,
+      "Frame AUC": 0.9989670297176088,
+      "Video AUC": 0.9992576607682347,
+      "Clips": 1500,
+      "Drop vs clean": 0.0
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 90.0,
+      "Frame AUC": 0.9964457148489478,
+      "Video AUC": 0.9984980578334053,
+      "Clips": 1500,
+      "Drop vs clean": 0.0019042925434921143
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 90.0,
+      "Frame AUC": 0.9989374599576168,
+      "Video AUC": 0.9994130340958135,
+      "Clips": 1500,
+      "Drop vs clean": 2.9569759991909805e-05
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 70.0,
+      "Frame AUC": 0.9975269824059927,
+      "Video AUC": 0.9993439792835563,
+      "Clips": 1500,
+      "Drop vs clean": 0.0008230249864472627
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 70.0,
+      "Frame AUC": 0.9982051155684787,
+      "Video AUC": 0.9990332326283988,
+      "Clips": 1500,
+      "Drop vs clean": 0.0007619141491300718
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 50.0,
+      "Frame AUC": 0.9960672219210487,
+      "Video AUC": 0.9972895986189038,
+      "Clips": 1500,
+      "Drop vs clean": 0.0022827854713912688
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 50.0,
+      "Frame AUC": 0.9968744763688333,
+      "Video AUC": 0.9970996978851965,
+      "Clips": 1500,
+      "Drop vs clean": 0.00209255334877545
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 30.0,
+      "Frame AUC": 0.9916830121728846,
+      "Video AUC": 0.9938368580060423,
+      "Clips": 1500,
+      "Drop vs clean": 0.006666995219555383
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "JPEG",
+      "Kind": "jpeg",
+      "Level": 30.0,
+      "Frame AUC": 0.9938159775269825,
+      "Video AUC": 0.996184721622788,
+      "Clips": 1500,
+      "Drop vs clean": 0.005151052190626282
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 1.0,
+      "Frame AUC": 0.9941649006948894,
+      "Video AUC": 0.9943029779887785,
+      "Clips": 1500,
+      "Drop vs clean": 0.004185106697550567
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 1.0,
+      "Frame AUC": 0.9982218717658076,
+      "Video AUC": 0.9978765645230903,
+      "Clips": 1500,
+      "Drop vs clean": 0.0007451579518011897
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 2.0,
+      "Frame AUC": 0.9634862747030704,
+      "Video AUC": 0.9701510574018127,
+      "Clips": 1500,
+      "Drop vs clean": 0.0348637326893696
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 2.0,
+      "Frame AUC": 0.9862687891183284,
+      "Video AUC": 0.9880535174794994,
+      "Clips": 1500,
+      "Drop vs clean": 0.012698240599280375
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 3.0,
+      "Frame AUC": 0.8292356217042038,
+      "Video AUC": 0.8413724643936122,
+      "Clips": 1500,
+      "Drop vs clean": 0.1691143856882361
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Blur",
+      "Kind": "blur",
+      "Level": 3.0,
+      "Frame AUC": 0.8803587797545709,
+      "Video AUC": 0.8959343979283556,
+      "Clips": 1500,
+      "Drop vs clean": 0.11860824996303787
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 5.0,
+      "Frame AUC": 0.9675038194273322,
+      "Video AUC": 0.9676132930513595,
+      "Clips": 1500,
+      "Drop vs clean": 0.03084618796510774
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 5.0,
+      "Frame AUC": 0.9913045192449854,
+      "Video AUC": 0.993992231333621,
+      "Clips": 1500,
+      "Drop vs clean": 0.007662510472623341
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 10.0,
+      "Frame AUC": 0.7020688975407816,
+      "Video AUC": 0.7068105308588692,
+      "Clips": 1500,
+      "Drop vs clean": 0.29628110985165834
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 10.0,
+      "Frame AUC": 0.8870080331181313,
+      "Video AUC": 0.8859473457056538,
+      "Clips": 1500,
+      "Drop vs clean": 0.1119589965994775
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 15.0,
+      "Frame AUC": 0.5215179143462619,
+      "Video AUC": 0.5236167457919723,
+      "Clips": 1500,
+      "Drop vs clean": 0.476832093046178
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Noise",
+      "Kind": "noise",
+      "Level": 15.0,
+      "Frame AUC": 0.5507190379971415,
+      "Video AUC": 0.5352352179542512,
+      "Clips": 1500,
+      "Drop vs clean": 0.44824799172046725
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.5,
+      "Frame AUC": 0.9959469715637475,
+      "Video AUC": 0.9978765645230901,
+      "Clips": 1500,
+      "Drop vs clean": 0.0024030358286925013
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.5,
+      "Frame AUC": 0.9981923020058154,
+      "Video AUC": 0.9980060422960725,
+      "Clips": 1500,
+      "Drop vs clean": 0.0007747277117933216
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.33,
+      "Frame AUC": 0.9781223202405007,
+      "Video AUC": 0.9855330168321105,
+      "Clips": 1500,
+      "Drop vs clean": 0.020227687151939233
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.33,
+      "Frame AUC": 0.9936967128283476,
+      "Video AUC": 0.9940267587397497,
+      "Clips": 1500,
+      "Drop vs clean": 0.005270316889261162
+    },
+    {
+      "Model": "STT-Repro",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.25,
+      "Frame AUC": 0.9596816322507515,
+      "Video AUC": 0.971178247734139,
+      "Clips": 1500,
+      "Drop vs clean": 0.038668375141688416
+    },
+    {
+      "Model": "FSTT-Net",
+      "Family": "Downscale",
+      "Kind": "resize",
+      "Level": 0.25,
+      "Frame AUC": 0.9800354837119906,
+      "Video AUC": 0.9829520932239966,
+      "Clips": 1500,
+      "Drop vs clean": 0.018931546005618194
+    }
+  ]
+}

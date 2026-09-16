@@ -1,0 +1,19 @@
+\begin{table}[!t]
+\centering
+\caption{Model zoo evaluated in this work on Celeb-DF v2. All values are best-epoch validation AUC on the same split, taken from the training logs. The five baselines follow the baseline training schedule; STT-Repro and FSTT-Net follow the token-transformer schedule, which is stated separately in the experimental setup. The row marked Pretrained = NO did not receive ImageNet initialisation and is therefore not representative of the published architecture.}
+\label{tab:tableIII_model_zoo}
+\footnotesize
+\begin{tabular}{lcccccc}
+\hline\hline
+Method & Best val AUC (\%) & Params (M) & Epochs & Train time (min) & Pretrained & Note \\
+\hline
+Swin-T & 96.63 & 27.52 & 14 & 174.40 & yes &  \\
+FSTT-Net & 96.32 & 23.84 & 15 & 0.00 & yes & proposed \\
+STT-Repro & 96.28 & 21.55 & 15 & 0.00 & yes & base-paper configuration, reproduced in this work \\
+F3Net-Lite & 95.28 & 9.20 & 12 & 98.10 & yes & RGB branch = ImageNet EfficientNet-B2 \\
+EfficientNet-B4 & 95.27 & 17.55 & 20 & 244.30 & yes &  \\
+ViT-B/16 & 85.67 & 85.80 & 7 & 102.50 & yes & early stop at epoch 7 \\
+Xception (random init) & 84.89 & 20.81 & 19 & 234.10 & NO & timm pretrained load failed; trained from scratch \\
+\hline\hline
+\end{tabular}
+\end{table}

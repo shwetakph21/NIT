@@ -1,0 +1,508 @@
+{
+  "intra": [
+    {
+      "Corpus": "celebdf",
+      "Method": "STT-Repro",
+      "Params (M)": 21.55,
+      "Frame ACC (%)": 97.12837837837837,
+      "Frame AUC (%)": 99.64992202990747,
+      "Video ACC (%)": 99.22779922779922,
+      "Video AUC (%)": 99.97521480502314,
+      "Video EER (%)": 1.0029742233972225,
+      "Videos": 518
+    },
+    {
+      "Corpus": "celebdf",
+      "Method": "FSTT-Net",
+      "Params (M)": 23.84,
+      "Frame ACC (%)": 98.45559845559846,
+      "Frame AUC (%)": 99.89060950925312,
+      "Video ACC (%)": 99.22779922779922,
+      "Video AUC (%)": 99.9801718440185,
+      "Video EER (%)": 0.5750165234633169,
+      "Videos": 518
+    },
+    {
+      "Corpus": "celebdf",
+      "Method": "Swin-T",
+      "Params (M)": 27.52,
+      "Frame ACC (%)": 98.09362934362935,
+      "Frame AUC (%)": 99.69981514375414,
+      "Video ACC (%)": 99.22779922779922,
+      "Video AUC (%)": 99.9256444150694,
+      "Video EER (%)": 1.0029742233972225,
+      "Videos": 518
+    },
+    {
+      "Corpus": "celebdf",
+      "Method": "EfficientNet-B4",
+      "Params (M)": 17.55,
+      "Frame ACC (%)": 97.70752895752895,
+      "Frame AUC (%)": 99.67314524124255,
+      "Video ACC (%)": 98.84169884169884,
+      "Video AUC (%)": 99.95373430270985,
+      "Video EER (%)": 0.5750165234633169,
+      "Videos": 518
+    },
+    {
+      "Corpus": "celebdf",
+      "Method": "F3Net-Lite",
+      "Params (M)": 4.01,
+      "Frame ACC (%)": 96.47683397683397,
+      "Frame AUC (%)": 98.95748564524125,
+      "Video ACC (%)": 98.06949806949807,
+      "Video AUC (%)": 99.56047587574355,
+      "Video EER (%)": 1.0029742233972225,
+      "Videos": 518
+    },
+    {
+      "Corpus": "ff++",
+      "Method": "STT-Repro",
+      "Params (M)": 21.55,
+      "Frame ACC (%)": 95.45909849749583,
+      "Frame AUC (%)": 98.77566185546233,
+      "Video ACC (%)": 96.661101836394,
+      "Video AUC (%)": 99.54029068742287,
+      "Video EER (%)": 2.886722587470715,
+      "Videos": 599
+    },
+    {
+      "Corpus": "ff++",
+      "Method": "FSTT-Net",
+      "Params (M)": 23.84,
+      "Frame ACC (%)": 97.52921535893155,
+      "Frame AUC (%)": 99.65135141943124,
+      "Video ACC (%)": 97.8297161936561,
+      "Video AUC (%)": 99.84382478148063,
+      "Video EER (%)": 1.00380362225749,
+      "Videos": 599
+    },
+    {
+      "Corpus": "wilddeepfake",
+      "Method": "STT-Repro",
+      "Params (M)": 21.55,
+      "Frame ACC (%)": 81.77399756986634,
+      "Frame AUC (%)": 88.83290748271897,
+      "Video ACC (%)": 85.80060422960725,
+      "Video AUC (%)": 91.30865102639295,
+      "Video EER (%)": 14.805718475073315,
+      "Videos": 331
+    },
+    {
+      "Corpus": "wilddeepfake",
+      "Method": "FSTT-Net",
+      "Params (M)": 23.84,
+      "Frame ACC (%)": 83.47509113001215,
+      "Frame AUC (%)": 91.03038557759572,
+      "Video ACC (%)": 85.1963746223565,
+      "Video AUC (%)": 92.97287390029325,
+      "Video EER (%)": 13.914956011730206,
+      "Videos": 331
+    }
+  ],
+  "cross": [
+    {
+      "Method": "STT-Repro",
+      "Train": "celebdf",
+      "Test": "ff++",
+      "Frame AUC (%)": 84.03619738532457,
+      "Video AUC (%)": 86.89261694249227,
+      "EER (%)": 23.159777324365855,
+      "Clips": 2995
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "celebdf",
+      "Test": "ff++",
+      "Frame AUC (%)": 74.99501246882791,
+      "Video AUC (%)": 83.15826595128341,
+      "EER (%)": 35.04181465528099,
+      "Clips": 2995
+    },
+    {
+      "Method": "STT-Repro",
+      "Train": "celebdf",
+      "Test": "wilddeepfake",
+      "Frame AUC (%)": 69.72291056544266,
+      "Video AUC (%)": 71.33064516129033,
+      "EER (%)": 36.47588361532351,
+      "Clips": 1646
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "celebdf",
+      "Test": "wilddeepfake",
+      "Frame AUC (%)": 63.070674405093605,
+      "Video AUC (%)": 66.60007331378299,
+      "EER (%)": 41.915112460132086,
+      "Clips": 1646
+    },
+    {
+      "Method": "STT-Repro",
+      "Train": "ff++",
+      "Test": "celebdf",
+      "Frame AUC (%)": 61.937482251082244,
+      "Video AUC (%)": 64.92233972240582,
+      "EER (%)": 41.153246753246755,
+      "Clips": 4000
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "ff++",
+      "Test": "celebdf",
+      "Frame AUC (%)": 65.79839999999999,
+      "Video AUC (%)": 70.08261731658956,
+      "EER (%)": 37.97229437229437,
+      "Clips": 4000
+    },
+    {
+      "Method": "STT-Repro",
+      "Train": "ff++",
+      "Test": "wilddeepfake",
+      "Frame AUC (%)": 66.17325796469096,
+      "Video AUC (%)": 67.15542521994135,
+      "EER (%)": 38.938060966789585,
+      "Clips": 1646
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "ff++",
+      "Test": "wilddeepfake",
+      "Frame AUC (%)": 68.07950759417128,
+      "Video AUC (%)": 69.3658357771261,
+      "EER (%)": 35.90380123546081,
+      "Clips": 1646
+    },
+    {
+      "Method": "STT-Repro",
+      "Train": "wilddeepfake",
+      "Test": "celebdf",
+      "Frame AUC (%)": 71.60482077922077,
+      "Video AUC (%)": 74.61665565102446,
+      "EER (%)": 33.452813852813854,
+      "Clips": 4000
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "wilddeepfake",
+      "Test": "celebdf",
+      "Frame AUC (%)": 75.82100779220778,
+      "Video AUC (%)": 79.17547918043621,
+      "EER (%)": 31.625974025974024,
+      "Clips": 4000
+    },
+    {
+      "Method": "STT-Repro",
+      "Train": "wilddeepfake",
+      "Test": "ff++",
+      "Frame AUC (%)": 80.78228670747374,
+      "Video AUC (%)": 84.94798357641251,
+      "EER (%)": 26.47421849416862,
+      "Clips": 2995
+    },
+    {
+      "Method": "FSTT-Net",
+      "Train": "wilddeepfake",
+      "Test": "ff++",
+      "Frame AUC (%)": 84.08365450011334,
+      "Video AUC (%)": 86.54752008866721,
+      "EER (%)": 23.73901105821305,
+      "Clips": 2995
+    }
+  ],
+  "robustness": [
+    {
+      "Method": "STT-Repro",
+      "Family": "clean",
+      "Level": 0.0,
+      "Frame AUC": 0.998369720565768,
+      "Video AUC": 0.9991195511437204,
+      "Drop vs clean": 0.0
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "clean",
+      "Level": 0.0,
+      "Frame AUC": 0.9991937312108817,
+      "Video AUC": 0.9994302977988778,
+      "Drop vs clean": 0.0
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "JPEG",
+      "Level": 90.0,
+      "Frame AUC": 0.9964053028436254,
+      "Video AUC": 0.9984635304272766,
+      "Drop vs clean": 0.0019644177221426196
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "JPEG",
+      "Level": 90.0,
+      "Frame AUC": 0.9991769750135528,
+      "Video AUC": 0.9994648252050065,
+      "Drop vs clean": 1.6756197328882116e-05
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "JPEG",
+      "Level": 70.0,
+      "Frame AUC": 0.9975279680646593,
+      "Video AUC": 0.9993094518774277,
+      "Drop vs clean": 0.000841752501108739
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "JPEG",
+      "Level": 70.0,
+      "Frame AUC": 0.9985885367897097,
+      "Video AUC": 0.9985325852395339,
+      "Drop vs clean": 0.0006051944211720173
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "JPEG",
+      "Level": 50.0,
+      "Frame AUC": 0.9959765413237396,
+      "Video AUC": 0.997186016400518,
+      "Drop vs clean": 0.0023931792420284204
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "JPEG",
+      "Level": 50.0,
+      "Frame AUC": 0.9959903405450693,
+      "Video AUC": 0.996236512731981,
+      "Drop vs clean": 0.0032033906658124334
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "JPEG",
+      "Level": 30.0,
+      "Frame AUC": 0.9918969001034941,
+      "Video AUC": 0.9938023305999136,
+      "Drop vs clean": 0.006472820462273932
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "JPEG",
+      "Level": 30.0,
+      "Frame AUC": 0.9910620472130501,
+      "Video AUC": 0.9902201122140698,
+      "Drop vs clean": 0.008131683997831596
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Blur",
+      "Level": 1.0,
+      "Frame AUC": 0.9941895421615495,
+      "Video AUC": 0.9943547690979715,
+      "Drop vs clean": 0.004180178404218471
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Blur",
+      "Level": 1.0,
+      "Frame AUC": 0.9984150608644226,
+      "Video AUC": 0.9987570133793698,
+      "Drop vs clean": 0.000778670346459176
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Blur",
+      "Level": 2.0,
+      "Frame AUC": 0.9636814351190183,
+      "Video AUC": 0.9701510574018126,
+      "Drop vs clean": 0.034688285446749734
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Blur",
+      "Level": 2.0,
+      "Frame AUC": 0.9842935291508551,
+      "Video AUC": 0.9872680189900733,
+      "Drop vs clean": 0.014900202060026624
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Blur",
+      "Level": 3.0,
+      "Frame AUC": 0.8299600808240106,
+      "Video AUC": 0.8433836858006043,
+      "Drop vs clean": 0.16840963974175738
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Blur",
+      "Level": 3.0,
+      "Frame AUC": 0.8972105859740772,
+      "Video AUC": 0.8966767371601208,
+      "Drop vs clean": 0.10198314523680452
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Noise",
+      "Level": 5.0,
+      "Frame AUC": 0.9675787294859791,
+      "Video AUC": 0.9673888649115235,
+      "Drop vs clean": 0.030790991079788887
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Noise",
+      "Level": 5.0,
+      "Frame AUC": 0.9921058597407717,
+      "Video AUC": 0.9896331463098835,
+      "Drop vs clean": 0.00708787147011003
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Noise",
+      "Level": 10.0,
+      "Frame AUC": 0.7015326992262579,
+      "Video AUC": 0.7057747086750108,
+      "Drop vs clean": 0.29683702133951007
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Noise",
+      "Level": 10.0,
+      "Frame AUC": 0.925801586910453,
+      "Video AUC": 0.9238325420802763,
+      "Drop vs clean": 0.07339214430042873
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Noise",
+      "Level": 15.0,
+      "Frame AUC": 0.5242836725641911,
+      "Video AUC": 0.5252309020284852,
+      "Drop vs clean": 0.47408604800157694
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Noise",
+      "Level": 15.0,
+      "Frame AUC": 0.6570262678034596,
+      "Video AUC": 0.6537764350453172,
+      "Drop vs clean": 0.3421674634074221
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Downscale",
+      "Level": 0.5,
+      "Frame AUC": 0.9958838894090977,
+      "Video AUC": 0.9978938282261546,
+      "Drop vs clean": 0.0024858311566703373
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Downscale",
+      "Level": 0.5,
+      "Frame AUC": 0.9982543985017988,
+      "Video AUC": 0.9987915407854984,
+      "Drop vs clean": 0.000939332709082974
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Downscale",
+      "Level": 0.33,
+      "Frame AUC": 0.9781676605391553,
+      "Video AUC": 0.985498489425982,
+      "Drop vs clean": 0.020202060026612734
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Downscale",
+      "Level": 0.33,
+      "Frame AUC": 0.9944339855108176,
+      "Video AUC": 0.9944583513163574,
+      "Drop vs clean": 0.0047597457000641
+    },
+    {
+      "Method": "STT-Repro",
+      "Family": "Downscale",
+      "Level": 0.25,
+      "Frame AUC": 0.9595120989601302,
+      "Video AUC": 0.9708933966335779,
+      "Drop vs clean": 0.03885762160563777
+    },
+    {
+      "Method": "FSTT-Net",
+      "Family": "Downscale",
+      "Level": 0.25,
+      "Frame AUC": 0.9744822827854713,
+      "Video AUC": 0.9768666378938282,
+      "Drop vs clean": 0.0247114484254104
+    }
+  ],
+  "significance": [
+    {
+      "Corpus": "celebdf",
+      "Comparison": "FSTT-Net vs STT-Repro",
+      "dAUC (pp)": 0.005,
+      "95% CI": "[-0.04, 0.05]",
+      "Bootstrap p": 0.83,
+      "McNemar p": 0.7237,
+      "Videos": 518,
+      "Significant": "no"
+    },
+    {
+      "Corpus": "ff++",
+      "Comparison": "FSTT-Net vs STT-Repro",
+      "dAUC (pp)": 0.296,
+      "95% CI": "[0.09, 0.56]",
+      "Bootstrap p": 0.002,
+      "McNemar p": 0.1456,
+      "Videos": 599,
+      "Significant": "yes"
+    },
+    {
+      "Corpus": "wilddeepfake",
+      "Comparison": "FSTT-Net vs STT-Repro",
+      "dAUC (pp)": 1.652,
+      "95% CI": "[0.36, 2.99]",
+      "Bootstrap p": 0.011,
+      "McNemar p": 0.8501,
+      "Videos": 331,
+      "Significant": "yes"
+    }
+  ],
+  "efficiency": [
+    {
+      "Method": "STT-Repro",
+      "Params (M)": 21.55,
+      "GFLOPs/clip": NaN,
+      "Latency (ms/clip)": 6.89,
+      "Throughput (clips/s)": 145.1
+    },
+    {
+      "Method": "FSTT-Net",
+      "Params (M)": 23.84,
+      "GFLOPs/clip": NaN,
+      "Latency (ms/clip)": 7.84,
+      "Throughput (clips/s)": 127.6
+    },
+    {
+      "Method": "Swin-T",
+      "Params (M)": 27.52,
+      "GFLOPs/clip": NaN,
+      "Latency (ms/clip)": 2.65,
+      "Throughput (clips/s)": 377.1
+    },
+    {
+      "Method": "EfficientNet-B4",
+      "Params (M)": 17.55,
+      "GFLOPs/clip": NaN,
+      "Latency (ms/clip)": 3.88,
+      "Throughput (clips/s)": 257.5
+    },
+    {
+      "Method": "F3Net-Lite",
+      "Params (M)": 4.01,
+      "GFLOPs/clip": NaN,
+      "Latency (ms/clip)": 1.99,
+      "Throughput (clips/s)": 503.6
+    }
+  ]
+}

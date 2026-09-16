@@ -1,0 +1,15 @@
+\begin{table}[!t]
+\centering
+\caption{Paired comparison of the proposed model against its own controlled reproduction on identical test sequences. A confidence interval containing zero means the difference is not distinguishable from run-to-run variation.}
+\label{tab:tableXIII_significance}
+\footnotesize
+\begin{tabular}{llrlrrrl}
+\hline\hline
+Corpus & Comparison & dAUC (pp) & 95\% CI & Bootstrap p & McNemar p & Videos & Significant \\
+\hline
+celebdf & FSTT-Net vs STT-Repro & 0.01 & [-0.04, 0.05] & 0.83 & 0.72 & 518 & no \\
+ff++ & FSTT-Net vs STT-Repro & 0.30 & [0.09, 0.56] & 0.00 & 0.15 & 599 & yes \\
+wilddeepfake & FSTT-Net vs STT-Repro & 1.65 & [0.36, 2.99] & 0.01 & 0.85 & 331 & yes \\
+\hline\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,17 @@
+\begin{table}[!t]
+\centering
+\caption{Computational cost on NVIDIA RTX PRO 6000 Blackwell Server Edition at batch size 1 with clip length $T=4$. The base paper reports parameters and FLOPs but no wall-clock latency.}
+\label{tab:tableXI_efficiency}
+\footnotesize
+\begin{tabular}{lrrrr}
+\hline\hline
+Method & Params (M) & GFLOPs/clip & Latency (ms/clip) & Throughput (clips/s) \\
+\hline
+STT-Repro & 21.55 & NaN & 6.89 & 145.10 \\
+FSTT-Net & 23.84 & NaN & 7.84 & 127.60 \\
+Swin-T & 27.52 & NaN & 2.65 & 377.10 \\
+EfficientNet-B4 & 17.55 & NaN & 3.88 & 257.50 \\
+F3Net-Lite & 4.01 & NaN & 1.99 & 503.60 \\
+\hline\hline
+\end{tabular}
+\end{table}
